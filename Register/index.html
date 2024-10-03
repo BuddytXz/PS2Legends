@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicia Sesion en PlayStation 2 Legends</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="login-container">
+      <h1>Registro</h1>
+      <form class="login-form" action="/index.html" method="GET">
+        <div class="tipping-box">
+          <label>Nombre Completo</label>
+          <input type="text" required />
+        </div>
+        <div class="tipping-box">
+          <label>Correo Electrónico</label>
+          <input type="email" required />
+        </div>
+        <div class="tipping-box">
+          <label>Nombre de usuario</label>
+          <input type="text" required />
+        </div>
+        <div class="tipping-box">
+          <label>Contraseña</label>
+          <input type="password" required />
+        </div>
+        <div class="tipping-box">
+          <label>Confirmar Contraseña</label>
+          <input type="password" required />
+        </div>
+
+        <div class="questions">
+          <label>
+            <input type="checkbox" name="notifications" /> Deseo recibir
+            notificaciones por email sobre futuros juegos.
+          </label>
+          <label>
+            <input type="checkbox" name="terms" required /> Acepto los términos
+            y condiciones.
+          </label>
+          <button type="submit">Crear Cuenta</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

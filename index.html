@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>PlayStation 2 Legends - The legends never die</title>
+  </head>
+  <body id="head">
+   
+    <header class="header">
+      <img src="/assets/Logo.png" alt="" class="logo-header">
+      <nav class="navbar">
+        <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu">
+
+        <ul class="navbar-list">
+          <li><a href="" class="navbar-link">Inicio</a></li>
+          <li><a href="#about-us" class="navbar-link">Nosotros</a></li>
+          <li><a href="#section-form" class="navbar-link">Peticiones</a></li>
+            <li><a href="/Login/index.html" class="button-link">Iniciar Sesión</a></li>
+            <li><a href="/Register/" class="button-link">Registrarse</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="section-hero" >
+        <article class="section-hero__info">
+          <h1>Tu portal a la era dorada de PlayStation</h1>
+          <h2>
+            Los titulos que hicieron historia
+            <br />
+            te esperan para revivir la mejor época de los videojuegos.
+          </h2>
+          <a href="#section-slider">PULSA START PARA CONTINUAR</a>
+        </article>
+        <img src="/assets/hero image.png" alt="Hero imagen Play Station 2" />
+      </section>
+
+      <!-- About Section-->
+      <!-- <section class="section-about"></section>
+    </main> -->
+    <section class="about-us" id="about-us">
+      <div class="container">
+        <h2>Sobre Nosotros</h2>
+        <p>En <strong>PS2 Legends</strong>, nos especializamos en traer de vuelta los juegos icónicos de PlayStation 2. Nuestra misión es ofrecer una colección única de títulos clásicos que marcaron una época. Si eres un amante de lo retro, aquí encontrarás los juegos que te hicieron vibrar y que siguen siendo inolvidables.</p>
+        <p>Con una selección cuidadosamente curada, nos dedicamos a brindarte la mejor experiencia de compra para revivir esos momentos épicos de la era dorada de PlayStation 2.</p>
+        <p><strong>Explora nuestra colección y revive la magia de los clásicos de PS2.</strong></p>
+      </div>
+    </section>
+
+    <!-- Catalogo -->
+    <section class="section-slider" id="section-slider">
+
+      <div class="slider-info">
+        <h2>Los Mejores Títulos que Definieron una Generación</h2>
+        <p>Descubre una selección de los títulos más memorables de PlayStation 2, donde cada juego cuenta una historia y revive una época dorada en la historia de los videojuegos. Nuestra tienda está dedicada a traerte esos momentos que marcaron una generación, desde aventuras épicas hasta clásicos de culto.</p>
+      </div>
+
+      <div class="slider">
+
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+        <input type="radio" name="slider" id="slide3">
+        <input type="radio" name="slider" id="slide4">
+        <input type="radio" name="slider" id="slide5">
+        <input type="radio" name="slider" id="slide6">
+
+
+        <div class="slides">
+          <div class="slide">
+            <img src="/assets/Silent Hill2.jpg " alt="Bully Scholarship Edition fondo">
+          </div>
+          <div class="slide">
+            <img src="/assets/gta sa.jpg" alt="Grand Theft Auto: San Andreas fondo">
+          </div>
+          <div class="slide">
+            <img src="/assets/manhunt.png" alt="Manhunt Fondo">
+          </div>
+          <div class="slide">
+            <img src="/assets/mgs3.jpg" alt="Metal Gear Solid 3 Snake Eater Fondo">
+          </div>
+          <div class="slide">
+            <img src="/assets/Resident Evil 4.jpg" alt="Resident Evil 4 fondo">
+          </div>
+          <div class="slide">
+            <img src="/assets/Bully.jpg" alt="Silent Hill 2 Fondo">
+          </div>
+        </div>
+
+        <div class="navigation">
+          <label for="slide1" class="nav-dot"></label>
+          <label for="slide2" class="nav-dot"></label>
+          <label for="slide3" class="nav-dot"></label>
+          <label for="slide4" class="nav-dot"></label>
+          <label for="slide5" class="nav-dot"></label>
+          <label for="slide6" class="nav-dot"></label>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section-form" id="section-form">
+      <h2 class="form-title">¿Buscas un juego específico de PS2?</h2>
+      <p class="form-p">Dinos qué juego de PlayStation 2 estás buscando y lo encontraremos para ti. Rellena el formulario con los detalles del juego que deseas, y te contactaremos cuando esté disponible en nuestra tienda.</p>
+      <form >
+        <input type="text" required>
+        <label class="username">Nombre del usuario</label>
+
+        <input type="email" required>
+        <label class="email">Correo electrónico</label>
+
+        <input type="text" required>
+        <label class="name-game">Nombre del juego solicitado</label>
+
+        <label class="comentario">Comentarios adicionales:</label>
+        <textarea placeholder="Especifica alguna versión, edición, o detalle adicional (opcional)"></textarea>
+
+        <button type="submit">Enviar solicitud</button>
+
+      </form>
+      <footer>
+        <img src="/assets/Logo.png" alt="">
+        <h2 class="footer-title">Conviertete en leyenda</h2>
+        <div class="footer-contact">
+          <p>Email: contact@ps2legends.com</p>
+          <p>Telefono: +23 123 456 3456</p>
+        </div>
+        <div class="footer-legal">
+          <p>&copy; 2024 PlayStation Classics. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+    </section>
+
+
+  </body>
+</html>

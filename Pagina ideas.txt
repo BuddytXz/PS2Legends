@@ -1,0 +1,10 @@
+Titulo: PS2 Legends
+
+Hero Subtitle: Revive los clásicos que marcaron una era
+
+Navbar: Inicio | Sobre nosotros | Catalogo | Peticiones                  Iniciar Sesion | Regitrarse
+
+
+Tu portal a la era dorada de PlayStation.
+Los títulos que hicieron historia te esperan para revivir la mejor época de los videojuegos.
+
